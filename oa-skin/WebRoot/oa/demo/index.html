@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>daily阶段demo</title>
+<meta charset="UTF-8">
+<!-- 引入seed -->
+<script
+	src="//g.alicdn.com/kissy/k/5.0.1/??seed-debug.js,import-style.js"
+	data-config="{combine:true}"></script>
+
+<!-- 配置模块 -->
+<script>
+    	require.config({
+            packages: [
+                {
+                    name: 'bee-demo',
+                    base: '../build',
+                    tag: "201504161434",
+                    ignorePackageNameInUri: true,
+                    combine: false
+                }
+            ]}
+        );
+    </script>
+
+
+<!--引入样式-->
+<script>
+    	modulex.importStyle('bee-demo/index.css');
+    	modulex.importStyle('bee-demo/oa-button.css');
+    	modulex.importStyle('bee-demo/oa-basic.css');
+    </script>
+</head>
+<body>
+
+	<header></header>
+
+	<article></article>
+
+	<!--初始化脚本-->
+	<script>
+	var a = 'asd';
+	modulex.use('bee-demo/index');
+</script>
+
+</body>
+</html>
