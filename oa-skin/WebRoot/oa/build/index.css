@@ -111,6 +111,7 @@ article {
 
 .bannerSeparatorSpan {
 	float: left;
+	margin-left: 5px;
 }
 
 .bannerSeparator {
@@ -119,4 +120,5 @@ article {
 
 .navigatorSpan {
 	float: left;
+	margin-left: 5px;
 }
