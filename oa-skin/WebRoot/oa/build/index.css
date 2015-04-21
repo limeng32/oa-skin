@@ -116,3 +116,7 @@ article {
 .bannerSeparator {
 	margin-top: 6px;
 }
+
+.navigatorSpan {
+	float: left;
+}
