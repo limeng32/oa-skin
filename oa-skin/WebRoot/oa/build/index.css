@@ -8,43 +8,54 @@ header {
 	padding-bottom: 2px;
 }
 
+.image {
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+}
+
 .banner {
 	background-image: url("../demo/image/headerBG.png");
-	height: 70px;
+	height: 60px;
 	width: 100%;
 }
 
 .logoKnot {
+	float:left;
 	margin-top: 15px;
 	margin-left: 35px;
+	width: 67px;
+	height: 41px;
+	background-image: url(../demo/image/logoKnot.png);
 }
 
 .logoText {
+	float:left;
 	margin-top: 15px;
 	margin-left: 40px;
+	width: 338px;
+	height: 36px;
+	background-image: url(../demo/image/logoText.png);
 }
 
 .rightBox {
 	float: right;
 }
 
-.headerSetting {
-	margin-top: 12px;
-	margin-right: 10px;
-}
-
-.headerHelping {
-	margin-top: 0px;
-}
-
 .welcomePanel {
 	float: right;
-	margin-top: 28px;
+	margin-top: 26px;
 	margin-right: 40px;
 }
 
+.welcomeImage {
+	float: left;
+	width: 60px;
+	height: 26px;
+	background-image: url(../demo/image/welcomePanel.png);
+}
+
 .welcomePerson {
-	float: right;
+	float: left;
 	margin-left: 2px;
 	margin-top: 4px;
 	font-size: 14px;
@@ -54,13 +65,14 @@ header {
 
 .rightPanel {
 	float: right;
-	margin-top: 18px;
+	margin-top: 12px;
 	margin-right: 50px;
 }
 
 .rightPanelItems {
 	float: left;
-	margin-top: 20px;
+	margin-top: 15px;
+	margin-right: 20px;
 }
 
 article {
@@ -120,5 +132,23 @@ article {
 
 .navigatorSpan {
 	float: left;
-	margin-left: 5px;
+	margin-left: 0px;
+}
+
+.headerSetting {
+	width: 50px;
+	height: 25px;
+	background-image: url(../demo/image/headerNewSetting.png);
+}
+
+.headerSearch {
+	width: 50px;
+	height: 25px;
+	background-image: url(../demo/image/headerSearch.png);
+}
+
+.headerHelping {
+	width: 50px;
+	height: 25px;
+	background-image: url(../demo/image/headerNewHelping.png);
 }

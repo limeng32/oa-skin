@@ -16,7 +16,7 @@ body {
 }
 
 .nav-menu a:hover, .nav-menu .nav-menuitem-hover a, .nav-menu a:active {
-	cursor: default;
+	cursor: pointer;
 	text-decoration: none;
 	color: #f00;
 }
@@ -25,7 +25,7 @@ body {
 	//background-color: #f0f0f0;
 	color: #fff;
 	//border: 1px solid #dcdcdc;
-	cursor: default;
+	cursor: pointer;
 	margin-top: 2px;
 	margin-top: 4px\9;
 	height: 33px;
@@ -34,6 +34,11 @@ body {
 }
 
 .nav-menu .nav-menuitem {
+	position: relative;
+	display: block;
+	//padding: 1px 10px;
+	clear: both;
+	font-weight: 400;
 	white-space: nowrap;
 }
 
@@ -44,6 +49,7 @@ body {
 	height: 33px;
 	line-height: 33px;
 	padding: 0 30px;
+	width: 58px;
 }
 
 .nav-menu .nav-menuitem span.title {
@@ -89,7 +95,7 @@ body {
 	height: 0;
 	border-width: 4px 4px 0 4px;
 	border-style: solid dashed dashed dashed;
-	border-color: #ccc transparent transparent transparent;
+	border-color: #000 transparent transparent transparent;
 	font-size: 0;
 	line-height: 0;
 	/*//goo.gl/jb0w0*/
@@ -131,7 +137,7 @@ body {
 
 .nav-popupmenu .nav-menuitem-hover a {
 	background: #fff;
-	font-weight: bold;
+	//font-weight: bold;
 }
 
 .nav-popupmenu-hidden {
